@@ -30,11 +30,8 @@ public class main{
            
       dawg.addP(p);
     }
-    
-    System.out.println("made");
         
     Prisons dog = new Prisons(dawg.sortGreatest());
-    Prisons dowg = new Prisons();
         
     for(int i = 0; i < 10; i++){
       System.out.println(dog.gert().get(i).toString());
