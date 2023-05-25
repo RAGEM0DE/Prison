@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 public class main{
-  public static void main(String[] args){
+  public static void main(String[] args) throws FileNotFoundException {
     
     BufferedReader f = new BufferedReader(new FileReader("prisons.csv"));
     PrintWriter s = new PrintWriter(System.out);
@@ -30,6 +30,8 @@ public class main{
            
       dawg.addP(p);
     }
+    
+    System.out.println("made");
         
     Prisons dog = new Prisons(dawg.sortGreatest());
         
