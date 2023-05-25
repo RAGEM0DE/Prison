@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Prisons {
     private ArrayList<Prison> list;
     
@@ -48,7 +50,7 @@ public class Prisons {
     
     public int average(ArrayList<Prison> m){
         int sum = 0;
-        for(int i = 0; i < m.size() i++){
+        for(int i = 0; i < m.size(); i++){
             sum += m.get(i).getPop();
         }
         return sum/m.size();
